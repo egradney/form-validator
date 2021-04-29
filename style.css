@@ -79,10 +79,14 @@ button {
 
 button:hover {
   background: #5bf0e8;
-  transform: translateY(-.2rem) scaleY(1.1);
+  transform: translateY(-.2rem);
+  box-shadow: 0 .2rem 3rem .2rem rgba(0, 0, 0, 0.4);
 }
 
+button:active,
 button:focus {
+  transform: translateY(.2rem);
+  box-shadow: 0 .1rem 3rem .1rem rgba(0, 0, 0, 0.2);
   outline: none;
 }
 
